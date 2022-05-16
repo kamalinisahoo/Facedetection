@@ -1,32 +1,9 @@
-.App {
-    font-family: sans-serif;
-    text-align: center;
-    background-color: #f6f9fe;
-    height: 100vh;
-    margin-top: 25vh;
-  }
-  .image-item {
-    display: flex;
-    margin: 10px 0;
-  }
-  .image-item__btn-wrapper {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-  }
-  button {
-    height: 40px;
-  }
-  
- 
-
-/* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 * {
   box-sizing: border-box;
 }
 
-.Main{
+.main{
   background: #f6f5f7;
   display: flex;
   width: 100%;
@@ -58,6 +35,8 @@ p {
 span {
   font-size: 12px;
 }
+
+
 
 button {
   border-radius: 20px;
@@ -129,6 +108,10 @@ input {
   z-index: 2;
 }
 
+
+
+
+
 .overlay-container {
   position: absolute;
   top: 0;
@@ -191,7 +174,4 @@ input {
 
 .container.right-panel-active .overlay-right {
   transform: translateX(20%);
-} 
-
-
- */
+}

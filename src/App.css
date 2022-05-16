@@ -7,7 +7,9 @@ body {
   align-items: center;
   height: 100vh;
 }
-
+.boxcontainer{
+  width: 500px;
+}
 .box {
   border: 1px solid #dfdfdf;
   background-color: #fff;

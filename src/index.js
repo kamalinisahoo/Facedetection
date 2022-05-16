@@ -3,14 +3,32 @@ import ReactDOM from "react-dom";
 import { BrowserRouter as Router,Routes,Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import App from "./App";
-import Identify from "./components/Identify";
-import Report from "./components/Report";
+import Identify from "/Users/sarthakjain/Desktop/DEV/REACTLEARNING/React_Firebase_Auth_Tutorial-master/src/components/IDENTIFY/Identify.js";
+import Report from "/Users/sarthakjain/Desktop/DEV/REACTLEARNING/React_Firebase_Auth_Tutorial-master/src/components/REPORT/Report.js";
+
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
       <App />
       <Routes>
+      {/* <Route
+                path="/home/Identify"
+                element={
+                  <ProtectedRoute>
+                    <Identify/>
+                  </ProtectedRoute>
+                }
+              />
+        <Route
+                path="/home/Report"
+                element={
+                  <ProtectedRoute>
+                    <Report/>
+                  </ProtectedRoute>
+                }
+              /> */}
+  
         <Route path="/home/Identify" element={<Identify/>} />
           <Route path="/home/Report" element={<Report/>} />
       </Routes>

@@ -1,3 +1,5 @@
+import Identify from "/Users/sarthakjain/Desktop/DEV/REACTLEARNING/React_Firebase_Auth_Tutorial-master/src/components/IDENTIFY/Identify.js";
+import Report from "/Users/sarthakjain/Desktop/DEV/REACTLEARNING/React_Firebase_Auth_Tutorial-master/src/components/REPORT/Report.js";
 import React from "react";
 import {
   BrowserRouter,
@@ -9,9 +11,6 @@ import {
 import { Button } from "react-bootstrap";
 import { useNavigate } from "react-router";
 import { useUserAuth } from "../context/UserAuthContext";
-import Identify from "./Identify";
-import Report from "./Report";
-
 const Home = () => {
   const { logOut, user } = useUserAuth();
   const navigate = useNavigate();
@@ -44,7 +43,7 @@ const Home = () => {
         {/* <Routes>
         <Route path="/Identify" element={<Identify/>} />
           <Route path="/Report" element={<Report/>} />
-      </Routes> */}
+      </Routes>
         {/* <Routes>
           <Route path="/Report">
             <Report />

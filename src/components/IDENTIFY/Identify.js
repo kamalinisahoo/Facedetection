@@ -2,11 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 import ImageUploading from "react-images-uploading";
 import "/Users/sarthakjain/Desktop/DEV/REACTLEARNING/React_Firebase_Auth_Tutorial-master/src/components/style.css"
+// import { useNavigate } from "react-router";
+// import { useUserAuth } from "/Users/sarthakjain/Desktop/DEV/REACTLEARNING/React_Firebase_Auth_Tutorial-master/src/context/UserAuthContext.js";
 
-
-function Report() {
+function Identify() {
+    // const {user} = useUserAuth();
+//    const navigate = useNavigate();
   const [images, setImages] = React.useState([]);
-  const maxNumber =100;
+  const maxNumber = 69;
   const onChange = (imageList, addUpdateIndex) => {
     // data for submit
     console.log(imageList, addUpdateIndex);
@@ -63,5 +66,5 @@ function Report() {
   );
 }
 const rootElement = document.getElementById("root");
-ReactDOM.render(<Report/>, rootElement);
-export default Report
+ReactDOM.render(<Identify/>, rootElement);
+export default Identify
